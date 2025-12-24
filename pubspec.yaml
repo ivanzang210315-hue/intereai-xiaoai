@@ -1,0 +1,31 @@
+﻿name: xiaoai_bluetooth
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.33.6
+  permission_handler: ^11.3.1
+  image_picker: ^1.1.2
+  path: ^1.9.0
+  http: ^1.1.0
+  socket_io_client: ^2.0.3+1
+  flutter_dotenv: ^5.0.2
+  file_picker: ^8.0.0+1
+  gal: ^2.3.0
+  ffmpeg_kit_flutter_new: ^3.2.0
+  path_provider: ^2.1.1
+  share_plus: ^7.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
